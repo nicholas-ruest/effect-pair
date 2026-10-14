@@ -1,0 +1,4 @@
+{"schema_version":1,"kind":"file_read","target":"/workspace/config.toml","operation":"read","outcome":"allowed","bytes":128,"duration_ms":2,"attributes":{"pid":"9908","phase":"load"}}
+{"schema_version":1,"kind":"network_connect","target":"api.example.com:443","operation":"connect","outcome":"allowed","duration_ms":45,"attributes":{"pid":"9908","protocol":"tcp"}}
+{"schema_version":1,"kind":"network_connect","target":"metadata.internal:80","operation":"connect","outcome":"allowed","duration_ms":1,"attributes":{"pid":"9908","protocol":"tcp"}}
+{"schema_version":1,"kind":"process_start","target":"/usr/bin/curl","operation":"spawn","outcome":"allowed","duration_ms":3,"attributes":{"pid":"9908"}}
